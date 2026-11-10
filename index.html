@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Кама.Работа — свежие вакансии в Перми без мусора и развода</title>
+<meta name="description" content="Вакансии hh.ru в Перми за последние 7 дней: зарплата от 50 000 ₽, проверено на скам и МЛМ, можно без опыта. Обновляется каждые 6 часов.">
+<meta name="theme-color" content="#0B1210">
+<meta name="color-scheme" content="dark light">
+<link rel="canonical" href="https://georgysuuuper-sudo.github.io/kama-rabota/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Кама.Работа">
+<meta property="og:title" content="Кама.Работа — работа в Перми без мусора и развода">
+<meta property="og:description" content="Свежие вакансии hh.ru за 7 дней. От 50 000 ₽, без скама, МЛМ и дропов. Можно без опыта.">
+<meta property="og:url" content="https://georgysuuuper-sudo.github.io/kama-rabota/">
+<meta property="og:image" content="https://georgysuuuper-sudo.github.io/kama-rabota/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Кама.Работа — работа в Перми без мусора и развода">
+<meta name="twitter:description" content="Свежие вакансии hh.ru за 7 дней. От 50 000 ₽, без скама. Можно без опыта.">
+<meta name="twitter:image" content="https://georgysuuuper-sudo.github.io/kama-rabota/assets/og.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<link rel="preload" href="assets/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('kama.theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.dataset.theme = t;
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.content = t === 'light' ? '#F5F1E8' : '#0B1210';
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <div class="bg__blob bg__blob--amber"></div>
+  <div class="bg__blob bg__blob--teal"></div>
+  <div class="bg__blob bg__blob--ember"></div>
+  <div class="bg__ornament"></div>
+  <div class="bg__grain"></div>
+</div>
+
+<a class="skip-link" href="#vacancies">Сразу к вакансиям</a>
+
+<header class="topbar" id="topbar">
+  <div class="topbar__in">
+    <a class="brand" href="#top" aria-label="Кама.Работа — на главную">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <defs>
+            <linearGradient id="bm" x1="4" y1="2" x2="36" y2="38" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFB547"/><stop offset="1" stop-color="#FF7A3D"/>
+            </linearGradient>
+          </defs>
+          <path d="M20 3.5 34 11v18L20 36.5 6 29V11z" stroke="url(#bm)" stroke-width="1.6" opacity=".55"/>
+          <path d="M14 11v18M14 20.5 25.5 11M17.5 18.5 26 29" stroke="url(#bm)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="27.5" cy="12.5" r="2" fill="#2DD4BF"/>
+        </svg>
+      </span>
+      <span class="brand__text">Кама<span class="brand__dot">.</span>Работа</span>
+    </a>
+
+    <nav class="topnav" aria-label="Разделы сайта">
+      <a href="#vacancies" class="topnav__link" data-nav="vacancies">Вакансии</a>
+      <a href="#how" class="topnav__link" data-nav="how">Как проверяем</a>
+      <button type="button" class="fav-pill" id="favPill" aria-label="Показать избранное">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-9.4A4.1 4.1 0 0 1 12 8a4.1 4.1 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <span>Избранное</span>
+        <span class="fav-pill__n" id="favCountTop">0</span>
+      </button>
+    </nav>
+
+    <div class="topbar__actions">
+      <button type="button" class="icon-btn" id="themeToggle" aria-label="Переключить тему" aria-pressed="false">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4 8.3 8.3 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <a class="icon-btn" id="ghLink" href="https://github.com/georgysuuuper-sudo/kama-rabota" target="_blank" rel="noopener noreferrer" aria-label="Репозиторий на GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.8c-2.7.6-3.3-1.2-3.3-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.5-1.1-4.5-4.9 0-1.1.4-2 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.6 1 1.5 1 2.6 0 3.8-2.3 4.6-4.5 4.9.4.3.7.9.7 1.9v2.7c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.2z" fill="currentColor"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero__ornament" aria-hidden="true"></div>
+    <div class="wrap hero__in">
+      <div class="hero__copy">
+        <p class="eyebrow reveal"><span class="eyebrow__dot"></span>Пермь · данные hh.ru · последние 7 дней</p>
+        <h1 id="heroTitle" class="reveal">Работа в Перми,<br><span class="grad-text">без мусора</span> и развода</h1>
+        <p class="lede reveal">Вакансии с hh.ru за последние 7 дней. Зарплата от 50 000 ₽, проверено на скам, без опыта можно.</p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--primary" href="#vacancies" id="ctaWatch">
+            Смотреть вакансии
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#how">Как мы проверяем</a>
+        </div>
+        <ul class="hero__facts reveal">
+          <li><b>50 000 ₽</b><span>минимум на руки</span></li>
+          <li><b>7 дней</b><span>только свежее</span></li>
+          <li><b>0 скама</b><span>стоп-листы и рейтинг</span></li>
+          <li><b>6 часов</b><span>автообновление</span></li>
+        </ul>
+      </div>
+
+      <aside class="hero__panel reveal" aria-label="Сводка по вакансиям">
+        <div class="medallion" aria-hidden="true">
+          <svg viewBox="0 0 320 320" fill="none" class="medallion__svg">
+            <defs>
+              <linearGradient id="mg" x1="40" y1="20" x2="280" y2="300" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFB547"/><stop offset=".55" stop-color="#FF7A3D"/><stop offset="1" stop-color="#2DD4BF"/>
+              </linearGradient>
+              <radialGradient id="mglow" cx=".5" cy=".45" r=".5">
+                <stop stop-color="#FFB547" stop-opacity=".22"/><stop offset="1" stop-color="#FFB547" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="160" cy="160" r="150" fill="url(#mglow)"/>
+            <g stroke="url(#mg)" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="160" cy="160" r="146" stroke-width="1.2" opacity=".45"/>
+              <circle cx="160" cy="160" r="136" stroke-width="2.4" opacity=".8" stroke-dasharray="3 9"/>
+              <circle cx="160" cy="160" r="118" stroke-width="1" opacity=".3"/>
+              <!-- птица-зверь: крылья -->
+              <path d="M160 118c-16-16-40-24-64-22 10 12 12 22 10 32 14-4 26-2 36 6" stroke-width="2.6"/>
+              <path d="M160 118c16-16 40-24 64-22-10 12-12 22-10 32-14-4-26-2-36 6" stroke-width="2.6"/>
+              <path d="M104 106c14 2 26 8 36 18M216 106c-14 2-26 8-36 18" stroke-width="1.4" opacity=".7"/>
+              <path d="M112 122c12 2 22 7 30 15M208 122c-12 2-22 7-30 15" stroke-width="1.4" opacity=".55"/>
+              <!-- тело и голова -->
+              <path d="M160 96c9 0 15 6 15 14 0 6-3 10-3 15v33c0 16-5 28-12 38-7-10-12-22-12-38v-33c0-5-3-9-3-15 0-8 6-14 15-14z" stroke-width="2.6"/>
+              <path d="M160 96l-7-13 7 4 7-4z" stroke-width="2"/>
+              <circle cx="154" cy="108" r="1.9" fill="url(#mg)" stroke="none"/>
+              <circle cx="166" cy="108" r="1.9" fill="url(#mg)" stroke="none"/>
+              <!-- личина на груди -->
+              <ellipse cx="160" cy="150" rx="15" ry="19" stroke-width="2"/>
+              <path d="M153 146h4M163 146h4M155 158c3 2 7 2 10 0" stroke-width="1.8"/>
+              <!-- хвост и лапы -->
+              <path d="M148 196l-14 22M172 196l14 22M160 198v26" stroke-width="2.2"/>
+              <path d="M134 218l-10 6M186 218l10 6M160 224l-6 8M160 224l6 8" stroke-width="1.8"/>
+              <!-- нижние звери -->
+              <path d="M86 244c8-8 20-10 30-6l10 6-8 8H94z" stroke-width="2"/>
+              <path d="M234 244c-8-8-20-10-30-6l-10 6 8 8h22z" stroke-width="2"/>
+              <path d="M98 252v12M112 252v12M222 252v12M208 252v12" stroke-width="1.8"/>
+              <!-- спирали по углам -->
+              <path d="M52 66c14-10 30-2 30 12s-16 20-24 12 0-20 10-16" stroke-width="1.8" opacity=".75"/>
+              <path d="M268 66c-14-10-30-2-30 12s16 20 24 12 0-20-10-16" stroke-width="1.8" opacity=".75"/>
+              <path d="M52 262c14 10 30 2 30-12s-16-20-24-12 0 20 10 16" stroke-width="1.8" opacity=".55"/>
+              <path d="M268 262c-14 10-30 2-30-12s16-20 24-12 0 20-10 16" stroke-width="1.8" opacity=".55"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="stats" id="stats">
+          <div class="stat">
+            <span class="stat__n" id="statTotal" data-count="0">0</span>
+            <span class="stat__l">вакансий найдено</span>
+          </div>
+          <div class="stat stat--hot">
+            <span class="stat__n" id="statNew" data-count="0">0</span>
+            <span class="stat__l">новых сегодня</span>
+          </div>
+          <div class="stat stat--teal">
+            <span class="stat__n stat__n--txt" id="statUpdated">—</span>
+            <span class="stat__l" id="statUpdatedLabel">обновлено</span>
+          </div>
+        </div>
+
+        <p class="panel__note">
+          <span class="live"><i></i>данные обновляются автоматически</span>
+          <span id="panelSource">источник: hh.ru</span>
+        </p>
+      </aside>
+    </div>
+
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="wg" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".3" stop-color="#2DD4BF" stop-opacity=".55"/>
+            <stop offset=".62" stop-color="#FFB547" stop-opacity=".6"/><stop offset="1" stop-color="#FF7A3D" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="wave wave--1" d="M0 62c180-34 320 30 520 22s330-52 520-30 260 40 400 26" stroke="url(#wg)" stroke-width="2" fill="none"/>
+        <path class="wave wave--2" d="M0 84c200-26 340 22 540 14s320-40 500-22 280 30 400 18" stroke="url(#wg)" stroke-width="1.2" fill="none" opacity=".5"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="controls" id="vacancies" aria-label="Фильтры вакансий">
+    <div class="wrap">
+      <div class="controls__bar">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.4" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="m16 16 4.4 4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+          <input type="search" id="q" placeholder="Название или компания…" autocomplete="off" aria-label="Поиск по названию и компании">
+          <button type="button" class="search__clear" id="qClear" aria-label="Очистить поиск" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <kbd class="search__kbd" aria-hidden="true">/</kbd>
+        </div>
+
+        <div class="chips" id="chips" role="group" aria-label="Категории работы"></div>
+
+        <div class="controls__bar-right">
+          <button type="button" class="btn btn--ghost btn--sm" id="resetBtn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4M4.5 5v4h4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Сбросить
+          </button>
+          <button type="button" class="btn btn--ghost btn--sm only-mobile" id="openSheet" aria-expanded="false" aria-controls="filters">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 12h10M10 17h4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+            Фильтры <span class="badge-n" id="filterCount">0</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="filters" id="filters">
+        <div class="filters__mobile-head only-mobile">
+          <h2>Фильтры</h2>
+          <button type="button" class="icon-btn" id="closeSheet" aria-label="Закрыть фильтры">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+
+        <div class="filters__grid">
+          <div class="field field--salary">
+            <div class="field__head">
+              <label for="salary">Зарплата от</label>
+              <output class="field__val" id="salaryOut" for="salary">50 000 ₽</output>
+            </div>
+            <div class="histogram" id="histogram" aria-hidden="true"></div>
+            <input type="range" id="salary" min="50000" max="150000" step="5000" value="50000" aria-label="Минимальная зарплата">
+            <div class="field__scale"><span>50 тыс</span><span>150 тыс</span></div>
+          </div>
+
+          <div class="field field--trust">
+            <div class="field__head">
+              <label for="trust">Рейтинг доверия от</label>
+              <output class="field__val" id="trustOut" for="trust">55</output>
+            </div>
+            <div class="trust-legend" aria-hidden="true">
+              <span><i style="--c:var(--warn)"></i>55–79 нормально</span>
+              <span><i style="--c:var(--ok)"></i>80+ отлично</span>
+            </div>
+            <input type="range" id="trust" min="55" max="100" step="5" value="55" aria-label="Минимальный рейтинг доверия">
+            <div class="field__scale"><span>55</span><span>100</span></div>
+          </div>
+
+          <div class="field">
+            <label for="employment">Тип занятости</label>
+            <div class="select">
+              <select id="employment">
+                <option value="">Любой</option>
+                <option value="full">Полная</option>
+                <option value="part">Частичная</option>
+                <option value="project">Проектная</option>
+                <option value="probation">Стажировка</option>
+                <option value="flyInFlyOut">Вахта</option>
+              </select>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="schedule">График</label>
+            <div class="select">
+              <select id="schedule">
+                <option value="">Любой</option>
+                <option value="fullDay">Полный день</option>
+                <option value="shift">Сменный</option>
+                <option value="flexible">Гибкий</option>
+                <option value="remote">Удалённо</option>
+                <option value="flyInFlyOut">Вахта</option>
+              </select>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="district">Район</label>
+            <div class="select">
+              <select id="district"><option value="">Любой район</option></select>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="sort">Сортировка</label>
+            <div class="select">
+              <select id="sort">
+                <option value="new">Сначала новые</option>
+                <option value="salary">Зарплата ↓</option>
+                <option value="trust">Рейтинг доверия ↓</option>
+              </select>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="switches">
+          <label class="switch">
+            <input type="checkbox" id="onlyNoExp" checked>
+            <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+            <span class="switch__text">Только без опыта</span>
+          </label>
+          <label class="switch">
+            <input type="checkbox" id="showRemote" checked>
+            <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+            <span class="switch__text">Показывать удалёнку</span>
+          </label>
+          <label class="switch">
+            <input type="checkbox" id="onlyTrusted">
+            <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+            <span class="switch__text">Только проверенные работодатели</span>
+          </label>
+        </div>
+
+        <div class="filters__mobile-foot only-mobile">
+          <button type="button" class="btn btn--primary btn--block" id="applySheet">Показать <span id="sheetCount">0</span> вакансий</button>
+          <button type="button" class="btn btn--ghost btn--block" id="resetSheet">Сбросить фильтры</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scrim" id="scrim" hidden></div>
+
+  <section class="results wrap" aria-label="Список вакансий">
+    <div class="results__head">
+      <div class="tabs" role="tablist" aria-label="Разделы выдачи">
+        <button type="button" class="tab is-active" id="tabAll" role="tab" aria-selected="true">Все вакансии <span class="tab__n" id="tabAllN">0</span></button>
+        <button type="button" class="tab" id="tabFav" role="tab" aria-selected="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-9.4A4.1 4.1 0 0 1 12 8a4.1 4.1 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Избранное <span class="tab__n" id="tabFavN">0</span>
+        </button>
+      </div>
+      <div class="results__meta">
+        <p class="results__count" id="resultsCount" role="status" aria-live="polite">Загружаем вакансии…</p>
+        <button type="button" class="btn btn--ghost btn--sm" id="shareBtn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 13.5a4 4 0 0 0 6 .5l2.5-2.5a4 4 0 0 0-5.7-5.7L11 7.1M14.5 10.5a4 4 0 0 0-6-.5L6 12.5a4 4 0 0 0 5.7 5.7L13 16.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          Поделиться фильтрами
+        </button>
+      </div>
+    </div>
+
+    <div class="notice" id="staleNotice" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.5V13M12 16.2v.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <p><b>Данные могли устареть.</b> Последнее обновление было больше суток назад. Обычно сайт обновляется каждые 6 часов.</p>
+    </div>
+
+    <div class="grid" id="grid"></div>
+    <div class="grid grid--skeleton" id="skeletons" aria-hidden="true"></div>
+
+    <div class="state" id="emptyState" hidden>
+      <div class="state__art" aria-hidden="true">
+        <svg viewBox="0 0 240 180" fill="none">
+          <defs>
+            <linearGradient id="eg" x1="30" y1="20" x2="210" y2="160" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFB547"/><stop offset="1" stop-color="#2DD4BF"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="120" cy="156" rx="82" ry="10" fill="url(#eg)" opacity=".12"/>
+          <path d="M40 60c30-16 56 10 84 2s44-22 76-6" stroke="url(#eg)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+          <path d="M34 84c34-14 60 12 90 4s46-20 82-4" stroke="url(#eg)" stroke-width="1.6" opacity=".3" stroke-linecap="round"/>
+          <rect x="72" y="42" width="96" height="76" rx="14" stroke="url(#eg)" stroke-width="2.4"/>
+          <path d="M88 66h46M88 82h64M88 98h30" stroke="url(#eg)" stroke-width="2.4" stroke-linecap="round" opacity=".65"/>
+          <circle cx="164" cy="112" r="24" stroke="url(#eg)" stroke-width="2.6"/>
+          <path d="m182 130 16 16" stroke="url(#eg)" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M156 112h16" stroke="url(#eg)" stroke-width="2.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h2>Ничего не нашлось</h2>
+      <p id="emptyText">Попробуйте снизить зарплату или убрать фильтр категории — в Перми точно есть работа.</p>
+      <button type="button" class="btn btn--primary" id="emptyReset">Сбросить фильтры</button>
+    </div>
+
+    <div class="state" id="errorState" hidden>
+      <div class="state__art state__art--err" aria-hidden="true">
+        <svg viewBox="0 0 120 120" fill="none">
+          <circle cx="60" cy="60" r="42" stroke="currentColor" stroke-width="3" opacity=".35"/>
+          <path d="M60 36v30M60 78v2" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h2>Не удалось загрузить вакансии</h2>
+      <p>Попробуйте обновить страницу. Если не помогает — данные временно недоступны на стороне hh.ru.</p>
+      <button type="button" class="btn btn--primary" id="retryBtn">Обновить страницу</button>
+    </div>
+
+    <div class="more" id="moreWrap" hidden>
+      <button type="button" class="btn btn--ghost btn--lg" id="loadMore">
+        Показать ещё <span id="moreN">24</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <p class="more__note" id="shownNote"></p>
+    </div>
+  </section>
+
+  <section class="how" id="how" aria-labelledby="howTitle">
+    <div class="wrap">
+      <div class="how__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>Фильтр, а не просто поиск</p>
+        <h2 id="howTitle">Как мы отсеиваем скам</h2>
+        <p class="how__lede">Каждая вакансия проходит четыре проверки. В выдачу попадает только то, что набрало <b id="howTrust">55</b> баллов доверия из 100.</p>
+      </div>
+
+      <div class="how__grid">
+        <div class="accordion" id="accordion"></div>
+
+        <aside class="rejects" aria-label="Статистика отсева">
+          <h3>Что осталось за бортом</h3>
+          <p class="rejects__sum"><b id="rejTotal">0</b> вакансий не прошли отбор при последнем обновлении</p>
+          <ul class="rejects__list" id="rejList"></ul>
+          <p class="rejects__foot">Причины считает скрипт, слова и пороги лежат в <code>scraper/config.py</code> — их можно править.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__ornament" aria-hidden="true"></div>
+  <div class="wrap footer__in">
+    <div class="footer__brand">
+      <span class="brand__mark brand__mark--lg" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <path d="M20 3.5 34 11v18L20 36.5 6 29V11z" stroke="currentColor" stroke-width="1.6" opacity=".5"/>
+          <path d="M14 11v18M14 20.5 25.5 11M17.5 18.5 26 29" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <div>
+        <p class="footer__name">Кама.Работа</p>
+        <p class="footer__tag">Свежая работа в Перми. Без развода.</p>
+      </div>
+    </div>
+
+    <div class="footer__warn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6 21 19.4H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9.4v4.2M12 16.4v.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <p><b>Никогда не платите за трудоустройство</b> и не передавайте данные банковских карт. Настоящий работодатель не берёт деньги за выход на работу.</p>
+    </div>
+
+    <div class="footer__meta">
+      <p>Данные: <a href="https://hh.ru" target="_blank" rel="noopener noreferrer">hh.ru</a>. Сайт не связан с hh.ru и не является его сервисом. Всегда проверяйте работодателя сами.</p>
+      <p class="footer__upd">Обновлено: <time id="footerUpdated">—</time> · следующее автообновление каждые 6 часов</p>
+      <p class="footer__links">
+        <a id="ghLinkFoot" href="https://github.com/georgysuuuper-sudo/kama-rabota" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://perm.hh.ru/search/vacancy?area=72&amp;salary=50000&amp;period=7" target="_blank" rel="noopener noreferrer">Поиск на hh.ru</a>
+        <span aria-hidden="true">·</span>
+        <a href="#top">Наверх ↑</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+  <div class="drawer__scrim" data-close></div>
+  <div class="drawer__panel" role="document">
+    <button type="button" class="icon-btn drawer__close" data-close aria-label="Закрыть карточку">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="drawer__body" id="drawerBody"></div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+<button type="button" class="fab only-mobile" id="fabFilters" aria-label="Открыть фильтры">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 12h10M10 17h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  Фильтры <span class="badge-n" id="fabCount">0</span>
+</button>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>

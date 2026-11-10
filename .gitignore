@@ -1,0 +1,29 @@
+# кэш скрапера и служебные файлы
+scraper/.cache/
+__pycache__/
+*.py[cod]
+*.log
+
+# временные пробы и отладочные артефакты
+_probe*
+_render.py
+_og.html
+_qa*.html
+_qa_shots/
+_qa_out.txt
+_shot_full.png
+_gf.css
+_getfonts.py
+_live.html
+_detail_state.json
+_search_sample.json
+assets/_*
+
+# окружение
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

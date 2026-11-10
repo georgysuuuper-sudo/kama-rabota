@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260" fill="none">
+  <g stroke="#FFB547" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
+    <!-- птица-зверь с личиной на груди -->
+    <g transform="translate(130 96)">
+      <path d="M0-26c-11-11-27-16-43-15 7 8 8 15 7 22 9-3 17-1 24 4"/>
+      <path d="M0-26c11-11 27-16 43-15-7 8-8 15-7 22-9-3-17-1-24 4"/>
+      <path d="M-36-34c9 1 17 5 24 12M36-34c-9 1-17 5-24 12" opacity=".6"/>
+      <path d="M0-40c6 0 10 4 10 9 0 4-2 7-2 10v22c0 11-3 19-8 26-5-7-8-15-8-26v-22c0-3-2-6-2-10 0-5 4-9 10-9z"/>
+      <path d="M0-40l-5-9 5 3 5-3z"/>
+      <ellipse cx="0" cy="4" rx="10" ry="13"/>
+      <path d="M-5 1h3M2 1h3M-3 9c2 1 4 1 6 0" stroke-width="1.3"/>
+      <path d="M-8 33l-9 15M8 33l9 15M0 35v17"/>
+      <path d="M-17 48l-7 4M17 48l7 4"/>
+    </g>
+    <!-- спирали -->
+    <g stroke="#2DD4BF" opacity=".7">
+      <path d="M22 26c12-9 26-2 26 10s-14 17-21 10 0-17 9-14"/>
+      <path d="M238 26c-12-9-26-2-26 10s14 17 21 10 0-17-9-14"/>
+      <path d="M22 236c12 9 26 2 26-10s-14-17-21-10 0 17 9 14"/>
+      <path d="M238 236c-12 9-26 2-26-10s14-17-21-10 0 17 9 14"/>
+    </g>
+    <!-- лось -->
+    <g transform="translate(58 196)" opacity=".8">
+      <path d="M0 0c6-7 17-9 25-5l8 5-7 7H6z"/>
+      <path d="M6 7v11M18 7v11M25 0l6-9M31-9l7-2M31-9l2-7"/>
+    </g>
+    <g transform="translate(202 196) scale(-1 1)" opacity=".8">
+      <path d="M0 0c6-7 17-9 25-5l8 5-7 7H6z"/>
+      <path d="M6 7v11M18 7v11M25 0l6-9M31-9l7-2M31-9l2-7"/>
+    </g>
+    <!-- гребёнка по краю -->
+    <g opacity=".45" stroke-width="1.3">
+      <path d="M96 250v8M104 250v8M112 250v8M120 250v8M128 250v8M136 250v8M144 250v8M152 250v8M160 250v8"/>
+      <path d="M96 2h8M104 2v8M112 2v8M120 2v8M128 2v8M136 2v8M144 2v8M152 2v8M160 2v8"/>
+    </g>
+    <!-- ромбы-обереги -->
+    <g opacity=".5" stroke-width="1.3">
+      <path d="M12 130l10-10 10 10-10 10zM228 130l10-10 10 10-10 10z"/>
+      <path d="M130 178l8-8 8 8-8 8z"/>
+    </g>
+  </g>
+</svg>
